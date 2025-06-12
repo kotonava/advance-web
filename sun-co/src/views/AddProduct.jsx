@@ -12,7 +12,7 @@ function AddProduct() {
 
   const [preview, setPreview] = useState(null);
   const [products, setProducts] = useState([]);
-  const [editingId, setEditingId] = useState(null); // 🔥 ID du produit en édition
+  const [editingId, setEditingId] = useState(null); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
